@@ -1,0 +1,3 @@
+CSS has an import option that lets you split your CSS into smaller, more maintainable portions. The only drawback is that each time you use @import in CSS it creates another HTTP request. Sass builds on top of the current CSS @import but instead of requiring an HTTP request, Sass will take the file that you want to import and combine it with the file you're importing into so you can serve a single CSS file to the web browser.
+
+Let's say you have a couple of Sass files, _reset.scss and base.scss. We want to import _reset.scss into base.scss.
